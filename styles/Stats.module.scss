@@ -1,0 +1,25 @@
+.stats_wrap {
+  position: relative;
+  width: 800;
+  div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    opacity: 0.9;
+    z-index: 10000;
+  }
+}
+
+.switchingRender_wrap {
+  position: relative;
+  width: 800;
+  div {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    cursor: pointer;
+    opacity: 0.9;
+    z-index: 10000;
+  }
+}
