@@ -1,0 +1,15 @@
+{
+  "name": "rayon-nbody-demo",
+  "collaborators": [
+    "y3km21 <y3km21@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "rayon_nbody_demo_bg.wasm",
+    "rayon_nbody_demo.js",
+    "rayon_nbody_demo.d.ts"
+  ],
+  "module": "rayon_nbody_demo.js",
+  "types": "rayon_nbody_demo.d.ts",
+  "sideEffects": false
+}
