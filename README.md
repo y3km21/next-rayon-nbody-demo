@@ -6,7 +6,7 @@
 
 ## Demo
 
-[Demo](https://next-rayon-nbody-demo.vercel.app)
+[Demo](https://next-rayon-nbody-demo.vercel.app) **(Chrome Recommended)**
 
 ## Install & Run
 
