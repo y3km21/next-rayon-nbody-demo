@@ -9,16 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/offscreencanvas": "^2019.6.4",
+    "bulma": "^0.9.3",
+    "comlink": "^4.3.1",
     "next": "12.1.5",
+    "rayon-nbody-demo": "link:rayon-nbody-demo/pkg",
+    "rayon-nbody-demo_single": "link:rayon-nbody-demo/pkg-single",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "three": "^0.139.2",
+    "wasm-feature-detect": "^1.2.11"
   },
   "devDependencies": {
     "@types/node": "17.0.24",
     "@types/react": "18.0.5",
     "@types/react-dom": "18.0.1",
-    "eslint": "8.13.0",
+    "@types/three": "^0.139.0",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
     "eslint-config-next": "12.1.5",
-    "typescript": "4.6.3"
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "sass": "^1.50.0",
+    "typed-scss-modules": "^6.2.0",
+    "typescript": "^4.6.3"
   }
 }
