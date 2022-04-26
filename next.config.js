@@ -29,7 +29,7 @@ let customHeaders = [
       { key: "Cross-Origin-Embedder-Policy", value: "require-corp" },
 
       { key: "Access-Control-Allow-Origin", value: "*" },
-      { key: "Cross-Origin-Resource-Policy", value: "same-site" },
+      { key: "Cross-Origin-Resource-Policy", value: "same-origin" },
     ],
   },
 
@@ -40,7 +40,7 @@ let customHeaders = [
       { key: "Cross-Origin-Embedder-Policy", value: "require-corp" },
 
       { key: "Access-Control-Allow-Origin", value: "*" },
-      { key: "Cross-Origin-Resource-Policy", value: "same-site" },
+      { key: "Cross-Origin-Resource-Policy", value: "same-origin" },
     ],
   },
 ];
