@@ -10,7 +10,18 @@ const Home: NextPage = () => {
 
   return (
     <div className="container">
-      <h1 className="title">Rayon NBody Demo</h1>
+      <nav className="navbar" role="navigation" aria-label="main navigation">
+        <div className="navbar-brand">
+          <h1 className="title navbar-item">Rayon NBody Demo</h1>
+        </div>
+        <div className="navbar-menu">
+          <div className="navbar-start">
+            <Link href={"https://github.com/y3km21/next-rayon-nbody-demo"}>
+              <a className="navbar-item">Source</a>
+            </Link>
+          </div>
+        </div>
+      </nav>
       <FormComponent
         currentModeStr={parseModeStr(mode as string)}
         numBodies={numBodies as string}
