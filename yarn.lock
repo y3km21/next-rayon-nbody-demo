@@ -1960,12 +1960,9 @@ queue-microtask@^1.2.2:
   version "0.0.0"
   uid ""
 
-"rayon-nbody-demo_single@link:../../rust/rayon-nbody-demo/pkg-single":
+"rayon-nbody-demo_single@link:rayon-nbody-demo/pkg-single":
   version "0.0.0"
   uid ""
-
-"rayon-nbody-demo_single@link:rayon-nbody-demo/pkg-single":
-  version "0.1.0"
 
 react-dom@18.0.0:
   version "18.0.0"
