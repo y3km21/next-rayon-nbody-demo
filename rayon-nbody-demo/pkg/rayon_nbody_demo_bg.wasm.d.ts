@@ -1,10 +1,10 @@
 /* tslint:disable */
 /* eslint-disable */
-export function logging_init(): void;
 export function __wbg_nbody_free(a: number): void;
 export function nbody_new(a: number, b: number): number;
 export function nbody_init_conditions(a: number): number;
 export function nbody_next_positions(a: number): number;
+export function logging_init(): void;
 export function __wbg_wbg_rayon_poolbuilder_free(a: number): void;
 export function wbg_rayon_poolbuilder_numThreads(a: number): number;
 export function wbg_rayon_poolbuilder_receiver(a: number): number;

@@ -19,7 +19,7 @@ Thanks to [wasm-bindgen-rayon](https://github.com/GoogleChromeLabs/wasm-bindgen-
 
 ## Demo
 
-todo
+[Demo](https://next-rayon-nbody-demo.vercel.app/) ( [source](https://github.com/y3km21/next-rayon-nbody-demo) )
 
 ## Usage
 

@@ -57,11 +57,11 @@ export class wbg_rayon_PoolBuilder {
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
-  readonly logging_init: () => void;
   readonly __wbg_nbody_free: (a: number) => void;
   readonly nbody_new: (a: number, b: number) => number;
   readonly nbody_init_conditions: (a: number) => number;
   readonly nbody_next_positions: (a: number) => number;
+  readonly logging_init: () => void;
   readonly __wbg_wbg_rayon_poolbuilder_free: (a: number) => void;
   readonly wbg_rayon_poolbuilder_numThreads: (a: number) => number;
   readonly wbg_rayon_poolbuilder_receiver: (a: number) => number;
